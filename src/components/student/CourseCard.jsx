@@ -1,9 +1,12 @@
 import React from 'react'
 
-const CourseCard = () => {
+const CourseCard = ({course}) => {
   return (
     <div>
-      <h1>Course Card</h1>
+      <img src={course.courseThumbnail} alt="" />
+      <div>
+        <h3></h3>
+      </div>
     </div>
   )
 }
