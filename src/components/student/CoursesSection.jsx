@@ -1,10 +1,10 @@
 import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
-import { appContext } from '../../context/AppContext';
+import {useAppContext} from '../../context/AppContext';
 import CourseCard from './CourseCard';
 
 const CoursesSection = () => {
-  const { allCourses } = useContext(appContext);
+  const { allCourses } = useAppContext();
 
   const topCourses = allCourses?.slice(0, 4) || [];
 
@@ -15,10 +15,10 @@ const CoursesSection = () => {
         Discover our top-rated courses across various categories. From coding and design to business and wellness, our courses are crafted to deliver results.
       </p>
 
-      <div className="my-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-        {topCourses.map((course, index) => (
+      <div className="grid grid-cols-4 px-4 md:px-0 md:my-16 my-10 gap-4">
+        {topCourses.map((course, index) => 
           <CourseCard key={index} course={course} />
-        ))}
+        )}
       </div>
 
       <Link

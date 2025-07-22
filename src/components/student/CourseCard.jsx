@@ -1,10 +1,10 @@
 import React, { useContext } from 'react'
-import {appContext} from '../../context/AppContext'
+import {AppContext, useAppContext} from '../../context/AppContext'
 import { Link } from 'react-router-dom'
 
 const CourseCard = ({course}) => {
 
-  const {currency} = useContext(appContext)
+  const {currency} = useAppContext()
 
   return (
     <Link to={'/course/' + course._id} onClick={()=> scrollTo(0,0,)} className='border border-gray-500/30 pb-6 overflow-hidden rounded-lg'>
