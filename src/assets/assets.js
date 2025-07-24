@@ -44,7 +44,7 @@ import profile_img3 from './profile_img3.png'
 import lesson_icon from './lesson_icon.svg'
 
 
-export const assets = {
+const assets = {
     logo,
     search_icon,
     sketch,
@@ -90,6 +90,8 @@ export const assets = {
     blue_tick_icon,
     lesson_icon
 }
+
+export default assets;
 
 export const dummyEducatorData = {
     "_id": "675ac1512100b91a6d9b8b24",

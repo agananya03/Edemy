@@ -1,6 +1,7 @@
-import React, { useContext } from 'react'
-import {AppContext, useAppContext} from '../../context/AppContext'
-import { Link } from 'react-router-dom'
+import React, { useContext } from 'react';
+import assets from '../../assets/assets';
+import {useAppContext} from '../../context/AppContext'
+import { Link } from 'react-router-dom';
 
 const CourseCard = ({course}) => {
 
