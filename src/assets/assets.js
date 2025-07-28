@@ -231,7 +231,7 @@ export const dummyCourses = [
                         "lectureId": "lecture1",
                         "lectureTitle": "What is JavaScript?",
                         "lectureDuration": 16,
-                        "lectureUrl": "https://youtu.be/CBWnBi-awSA",
+                        "lectureUrl": "https://youtu.be/quJzdnXuNDc",
                         "isPreviewFree": true,
                         "lectureOrder": 1
                     },
@@ -254,7 +254,7 @@ export const dummyCourses = [
                         "lectureId": "lecture3",
                         "lectureTitle": "Understanding Variables",
                         "lectureDuration": 20,
-                        "lectureUrl": "https://youtu.be/pZQeBJsGoDQ",
+                        "lectureUrl": "https://youtu.be/u3v2H5mwixY",
                         "isPreviewFree": true,
                         "lectureOrder": 1
                     },
